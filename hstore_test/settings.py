@@ -62,7 +62,7 @@ WSGI_APPLICATION = 'hstore_test.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'test',
+        'NAME': 'django_hstore_test',
         'USER': 'spike',
         'HOST': 'localhost',
     }
